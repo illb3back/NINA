@@ -1,0 +1,4 @@
+import os
+
+a=os.system('sudo /opt/lampp/xampp start && idle && exit ')
+

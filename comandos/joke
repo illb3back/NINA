@@ -1,0 +1,11 @@
+import pygame
+import random
+pygame.init()
+a=['piada1.mp3','piada2.mp3','piada3.mp3']
+x=random.choice(a)
+print(x)
+pygame.mixer.music.load('/Projects/N.I.N.A/comandos/soung/'+x)
+pygame.mixer.music.play()
+pygame.event.wait()
+exit()
+ 
